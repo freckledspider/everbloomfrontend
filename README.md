@@ -31,7 +31,7 @@ Everbloom is an online florist shop that offers a variety of fresh flowers and a
 | "/flowers/:id" |  | ShowLoader |
 | "create" | CreateAction |  |
 | "update/:id" | UpdateAction | |
-| "delet/:id" | DeleteAction | |
+| "delete/:id" | DeleteAction | |
 
 ### Mockups
 #### Browser
