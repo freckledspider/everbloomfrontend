@@ -1,0 +1,39 @@
+# Everbloom Florist
+
+### Concept
+Everbloom is an online florist shop that offers a variety of fresh flowers and arrangements for every occasion. With a simple and elegant design, customers can easily browse through different bouquets and select their preferred flowers, as well as add a gift card message if they choose.
+
+### CRUD Concept
+- Create: Add to cart
+- Read: Item show page
+- Update: Edit card message
+- Delete: Remove from cart
+
+### Technologies Used
+#### Backend 
+- Django
+- Python
+- PostgreSQL
+
+#### Frontend
+- HTML
+- CSS
+- Javascript
+
+### Wireframes
+#### Browser
+<img src="https://i.imgur.com/pYQIUog.png" width="500"/> <img src="https://i.imgur.com/zwDCYIb.png" width="500"/>
+
+#### Mobile
+<img src="https://i.imgur.com/oSx7WhP.png" height="400"/> <img src="https://i.imgur.com/1qppiME.png" height="400"/>
+
+### Goals
+| Date  | Goal |
+| ------------- | ------------- |
+| 02/20/23  | Project Approval  |
+| 02/21/23 | Create backend, testing |
+| 02/22/23 | Create frontend, testing |
+| 02/23/23 | Testing, Work on styling CSS |
+| 02/24/23 | Work on responsive design |
+| 02/25/23 - 02/27/23 | Continue working on styling, possibly implement authentication, testing again, and making sure deployment is all working. |
+| 02/28/23 | Present project |
