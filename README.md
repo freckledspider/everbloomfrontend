@@ -3,6 +3,8 @@
 ### Concept
 Everbloom is an online florist shop that offers a variety of fresh flowers and arrangements for every occasion. With a simple and elegant design, customers can easily browse through different bouquets and select their preferred flowers, as well as add a gift card message if they choose.
 
+<a href="https://everbloomflorist.netlify.app/">Live Demo</a>
+
 ### CRUD Concept
 - Create: Add to cart
 - Read: Item show page
@@ -10,12 +12,14 @@ Everbloom is an online florist shop that offers a variety of fresh flowers and a
 - Delete: Remove from cart
 
 ### Technologies Used
-#### Backend 
+#### Backend
+<a href="https://github.com/freckledspider/everbloombackend">Backend Repo</a>
 - Django
 - Python
 - PostgreSQL
 
 #### Frontend
+<a href="https://github.com/freckledspider/everbloomfrontend">Frontend Repo</a>
 - HTML
 - CSS
 - Javascript
