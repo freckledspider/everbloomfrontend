@@ -24,7 +24,16 @@ Everbloom is an online florist shop that offers a variety of fresh flowers and a
 - CSS
 - Javascript
 
-### Wireframes
+### Routes, Loaders, and Actions
+| Path | Action | Loader |
+|------|--------|--------|
+| "/" |  | IndexLoader |
+| "/flowers/:id" |  | ShowLoader |
+| "create" | CreateAction |  |
+| "update/:id" | UpdateAction | |
+| "delet/:id" | DeleteAction | |
+
+### Mockups
 #### Browser
 <img src="https://i.imgur.com/pYQIUog.png" width="500"/> <img src="https://i.imgur.com/zwDCYIb.png" width="500"/>
 
