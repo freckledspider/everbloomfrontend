@@ -41,6 +41,15 @@ Everbloom is an online florist shop that offers a variety of fresh flowers and a
 - Show.js
 - Cart.js
 
+### Database Schema
+| Name | Data type |
+|----|--------|
+| id | Serial |
+| Product | varchar(20) |
+| Price | Integer |
+| Description | varchar(250) |
+| Card | varchar(100) |
+
 ### Mockups
 #### Browser
 <img src="https://i.imgur.com/pYQIUog.png" width="500"/> <img src="https://i.imgur.com/zwDCYIb.png" width="500"/>
