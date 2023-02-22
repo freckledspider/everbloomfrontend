@@ -46,6 +46,7 @@ Everbloom is an online florist shop that offers a variety of fresh flowers and a
 |----|--------|
 | id | Serial |
 | Product | varchar(20) |
+| Image | varchar(200) |
 | Price | Integer |
 | Description | varchar(250) |
 | Card | varchar(100) |
