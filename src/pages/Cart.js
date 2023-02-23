@@ -1,10 +1,10 @@
-import Post from "../components/Post";
+import ProductCard from "../components/ProductCard";
 import {useLoaderData} from "react-router-dom"
 
 const Cart = (props) => {
-  const todos = useLoaderData()
+  const products = useLoaderData()
   return <>
-  {todos.map((post) => <Post post={post} key={post.id} />)}
+  {products.map((product) => <ProductCard post={product} key={product.id} />)}
   </>;
 };
 

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Post = ({ post }) => {
+const ProductCard = ({ post }) => {
   return (
     <div>
       <Link to={`/product/${post.id}`}>
@@ -11,4 +11,4 @@ const Post = ({ post }) => {
   );
 };
 
-export default Post
+export default ProductCard
