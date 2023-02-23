@@ -37,7 +37,7 @@ export const createAction = async ({ request }) => {
         card: formData.get("card"),
       }
   
-      await fetch(URL + "/everbloomcart/" + params.id, {
+      await fetch(URL + "/everbloomcart/" + params.id + "/", {
           method: "put",
           headers: {
               "Content-Type":"application/json"
@@ -50,7 +50,7 @@ export const createAction = async ({ request }) => {
   
   export const deleteAction = async ({params}) => {
   
-      await fetch(URL + "/everbloomcart/" + params.id, {
+      await fetch(URL + "/everbloomcart/" + params.id + "/", {
           method: "delete"
       })
   

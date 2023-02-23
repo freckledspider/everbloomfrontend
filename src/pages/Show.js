@@ -19,9 +19,27 @@ const Show = () => {
           />
           <input
             type="text"
+            name="image"
+            placeholder="image"
+            defaultValue={post.image}
+          />
+            <input
+            type="text"
             name="price"
             placeholder="price"
             defaultValue={post.price}
+          />
+            <input
+            type="text"
+            name="description"
+            placeholder="description"
+            defaultValue={post.description}
+          />
+            <input
+            type="text"
+            name="card"
+            placeholder="card"
+            defaultValue={post.card}
           />
           <button>Update Product</button>
         </Form>
