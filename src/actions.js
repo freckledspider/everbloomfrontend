@@ -22,7 +22,7 @@ export const createAction = async ({ request }) => {
       body: JSON.stringify(newProduct),
     })
   
-    return redirect("/")
+    return redirect("/cart")
   }
   
   export const updateAction = async ({request, params}) => {
@@ -54,5 +54,5 @@ export const createAction = async ({ request }) => {
           method: "delete"
       })
   
-      return redirect("/")
+      return redirect("/cart")
   }
