@@ -6,6 +6,7 @@ import Show from "./pages/Show"
 import Cart from "./pages/Cart"
 import Shop from "./pages/Shop"
 import { createAction, updateAction, deleteAction } from "./actions";
+import InventoryShow from "./pages/InventoryShow"
 
 const router = createBrowserRouter(createRoutesFromElements(
     <>
@@ -17,6 +18,7 @@ const router = createBrowserRouter(createRoutesFromElements(
         <Route path="delete/:id" action={deleteAction}/>
         <Route path="/cart" element={<Cart/>} loader={indexLoader}/>
         <Route path="/shop" element={<Shop/>} />
+        <Route path="/inventory/:id" element={<InventoryShow />}/>
         </Route>
     </>
 ))

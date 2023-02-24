@@ -1,4 +1,5 @@
 import { Form } from "react-router-dom";
+import { Link } from "react-router-dom";
 import inventory from "../inventory";
 
 const Shop = (props) => {
@@ -6,9 +7,9 @@ const Shop = (props) => {
     return <div>
     <h2>View Products</h2>
     {inventory.map((flowers) => {
-    const { product, price, image, description } = flowers;
+    const { product, price, image, description, id } = flowers;
     return ( <div>
-    <h2>{product}</h2>
+    <Link to={`/inventory/${id}`}><h2>{product}</h2></Link>
     <img src={image} alt="" width="200" /><h3>{price}</h3>
 <Form action="/create" method="post">
 <input type="text" name="product" value={product}/>
