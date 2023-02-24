@@ -1,15 +1,16 @@
-import { Link, useLoaderData, Form } from "react-router-dom";
-
-// destructuring the props needed to get our post, including router prop match
+import { useLoaderData, Form } from "react-router-dom";
+// Show details of shopping cart to edit the card message or remove from cart
 const Show = () => {
   const product = useLoaderData();
 
   return (
     <div>
       <h1>{product.product}</h1>
+      <img src={product.image} alt="" width="400" />
       <h2>{product.price}</h2>
+      {product.description}
       <div>
-        <h2>Edit Product</h2>
+        <h2>Edit Card Message</h2>
         <Form action={`/update/${product.id}`} method="post">
           <input
             type="text"
@@ -41,15 +42,12 @@ const Show = () => {
             placeholder="card"
             defaultValue={product.card}
           />
-          <button>Update Product</button>
+          <button>Save</button>
         </Form>
         <Form action={`/delete/${product.id}`} method="post">
-          <button>Delete Product</button>
+          <button>Remove from cart</button>
         </Form>
       </div>
-      <Link to="/">
-        <button>Go Back</button>
-      </Link>
     </div>
   );
 };
