@@ -1,6 +1,6 @@
 const inventory = [
     {
-        "id": 1,
+        "id": 0,
         "product": "Peachy",
         "image": "https://i.imgur.com/AQlwLTQ.jpg",
         "price": 75,
@@ -8,7 +8,7 @@ const inventory = [
         "card": ""
     },
     {
-        "id": 2,
+        "id": 1,
         "product": "Verdant Vibes",
         "image": "https://i.imgur.com/NB7wriz.jpg",
         "price": 125,
@@ -16,7 +16,7 @@ const inventory = [
         "card": ""
     },
     {
-        "id": 3,
+        "id": 2,
         "product": "Vernal View",
         "image": "https://i.imgur.com/5uik57c.jpg",
         "price": 110,
@@ -24,7 +24,7 @@ const inventory = [
         "card": ""
     },
     {
-        "id": 4,
+        "id": 3,
         "product": "Denim",
         "image": "https://i.imgur.com/LNaguxe.jpg",
         "price": 65,
@@ -32,7 +32,7 @@ const inventory = [
         "card": ""
     },
     {
-        "id": 5,
+        "id": 4,
         "product": "Spring Elegance",
         "image": "https://i.imgur.com/3BKRNgC.jpg",
         "price": 300,
@@ -40,9 +40,9 @@ const inventory = [
         "card": ""
     },
     {
-        "id": 6,
+        "id": 5,
         "product": "Pastel Dreams",
-        "image": "https://i.imgur.com/3BKRNgC.jpg",
+        "image": "https://i.imgur.com/hj6CXmx.jpg",
         "price": 350,
         "description": "A lovely collection of deluxe blooms, this arrangement is guaranteed to impress. Pastel roses, ranunculus, cymbidium orchids, eucalyptus, hydrangea, garden roses, stock, and other gorgeous flowers in a sleek glass cylinder.",
         "card": ""

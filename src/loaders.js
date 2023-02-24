@@ -1,4 +1,3 @@
-// YOUR DEPLOYED API BASE URL
 const URL = "https://everbloombackend.onrender.com"
 
 export const indexLoader = async () => {
