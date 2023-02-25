@@ -1,4 +1,4 @@
-const Footer = ({ post }) => {
+const Footer = ({ props }) => {
   return (
     <h1>Footer</h1>
   );
