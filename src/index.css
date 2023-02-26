@@ -72,7 +72,7 @@ li a:hover {
 }
 
 img {
-  border: 15px solid rgba(215, 136, 158, .3);
+  border: 15px solid rgba(215, 136, 158, .5);
   -webkit-background-clip: padding-box; /* for Safari */
   background-clip: padding-box;
 }
@@ -92,9 +92,9 @@ img {
 
 .index {
   width: 70%;
-  position: absolute;
-  top: 55%;
-  left: 15%;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #233132;
   padding: 20px;
 }
@@ -137,5 +137,22 @@ h3 a{
 }
 
 h3 a:hover {
+  color: #d7889e;
+}
+
+.footer {
+  background-color: rgba(215, 136, 158, .5);
+  margin: 0px;
+  padding: 40px;
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
   color: #d7889e;
 }
