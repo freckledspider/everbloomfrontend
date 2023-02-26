@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&family=Cormorant+SC&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;1,300&family=Cormorant+SC&family=Italiana&family=Roboto:wght@300&display=swap');
 
 body {
   background-image: url("./everbloombg.jpg");
@@ -6,7 +6,9 @@ body {
   background-repeat: no-repeat;
   background-color: #0f1515;
   margin: 0;
-  color: #0f1515;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 2rem;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -61,9 +63,79 @@ li a {
   padding-right: 40px;
   padding-top: 13px;
   transition: 0.7s;
+  font-style: italic;
 }
 
 li a:hover {
   color: #d7889e;
   opacity: 0.7;
+}
+
+img {
+  border: 15px solid rgba(215, 136, 158, .3);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box;
+}
+
+.welcomeText {
+  font-family: 'Italiana', serif;
+  width: 50%;
+  color: #d7889e;
+  font-size: 7rem;
+  position:absolute;
+  top: 25%;
+  left: 10%;
+  line-height: 4rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.8;
+}
+
+.index {
+  width: 70%;
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  background-color: #233132;
+  padding: 20px;
+}
+
+td {
+  padding: 20px;
+}
+
+table {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border: 1px solid #d7889e;
+  width: 75%;
+}
+
+h2 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: normal;
+  color: #d7889e;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+h3 a{
+  display: block;
+  font-size: 3rem;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: normal;
+  font-style: italic;
+  transition: 0.7s;
+}
+
+h3 a:hover {
+  color: #d7889e;
 }
