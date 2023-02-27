@@ -45,7 +45,7 @@ export const createAction = async ({ request }) => {
           body: JSON.stringify(updatedProduct)
       })
   
-      return redirect("/")
+      return redirect("/cart")
   }
   
   export const deleteAction = async ({params}) => {

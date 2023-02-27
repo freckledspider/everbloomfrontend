@@ -4,33 +4,39 @@ const Show = () => {
   const product = useLoaderData();
 
   return (
-    <div>
-      <h1>{product.product}</h1>
-      <img src={product.image} alt="" width="400" />
-      <h2>{product.price}</h2>
+    <div className="show">
+      <table>
+      <tr>
+      <td><img src={product.image} alt={product.description} width="400" /></td>
+      <td><h2>{product.product}</h2>
+      <h3>${product.price}</h3>
+      <hr></hr><br/><br/>
       {product.description}
-      <div>
-        <h2>Edit Card Message</h2>
+      <h3>Edit card message</h3>
         <Form action={`/update/${product.id}`} method="post">
           <input
+            className="displayNone"
             type="text"
             name="product"
             placeholder="product name"
             defaultValue={product.product}
           />
           <input
+            className="displayNone"
             type="text"
             name="image"
             placeholder="image"
             defaultValue={product.image}
           />
             <input
+            className="displayNone"
             type="text"
             name="price"
             placeholder="price"
             defaultValue={product.price}
           />
             <input
+            className="displayNone"
             type="text"
             name="description"
             placeholder="description"
@@ -44,10 +50,9 @@ const Show = () => {
           />
           <button>Save</button>
         </Form>
-        <Form action={`/delete/${product.id}`} method="post">
-          <button>Remove from cart</button>
-        </Form>
-      </div>
+      </td>
+      </tr>
+      </table>
     </div>
   );
 };

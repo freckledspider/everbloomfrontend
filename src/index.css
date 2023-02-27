@@ -168,7 +168,7 @@ a:hover {
   color: #d7889e;
 }
 
-.inventoryShow, .shop, .cart {
+.inventoryShow, .shop, .cart, .show {
   background-color: #233132;
   padding: 20px;
 }
@@ -176,7 +176,8 @@ a:hover {
 button {
   background-color: #d7889e;
   border: none;
-  padding: 15px;
+  padding: 9px;
+  margin: 20px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
