@@ -168,7 +168,7 @@ a:hover {
   color: #d7889e;
 }
 
-.inventoryShow, .shop {
+.inventoryShow, .shop, .cart {
   background-color: #233132;
   padding: 20px;
 }
