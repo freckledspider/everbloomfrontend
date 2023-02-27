@@ -4,16 +4,16 @@ import flowerPhoto from "../flowerphoto.jpg"
 
 const Index = (props) => {
   return <>
-    <div className="welcomeText">Fresh from<br/>&nbsp;&nbsp;&nbsp;&nbsp;our garden</div>
+    <div className="welcomeText mobileDisplayNone" >Fresh from<br/>&nbsp;&nbsp;&nbsp;&nbsp;our garden</div>
     <div className="index">
     <table>
     <tr>
     <td>
       <h2>Welcome</h2>
       Everbloom is a florist website that offers a stunning selection of fresh and beautiful flowers for any occasion. Our passionate team of florists carefully handcraft each bouquet to create unique and memorable arrangements that are perfect for expressing your love, appreciation, or condolences. From elegant roses to cheerful sunflowers, we have something for everyone.</td>
-    <td><img src={flowerPhoto} alt="Pink peony bouquet" width="250"/></td>
+    <td><img className="mobileDisplayNone" src={flowerPhoto} alt="Pink peony bouquet" width="250"/></td>
     </tr>
-    </table>
+    </table><br/>
     <hr></hr>
     <table>
     <tr>

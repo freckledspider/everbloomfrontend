@@ -92,6 +92,8 @@ img {
   line-height: 4rem;
   letter-spacing: 0.3rem;
   opacity: 0.8;
+  display: block;
+  width: 768px;
 }
 
 .index {
@@ -201,4 +203,61 @@ input {
   display: inline-block;
   padding: 20px;
   margin: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .mobileDisplayNone {
+    display: none;
+  }
+
+  body {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  h1 a{
+    font-size: 1.5rem;
+  }
+
+  li a{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding-right: 10px;
+  }
+
+  .index {
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  img {
+    border: 5px solid rgba(215, 136, 158, .5);
+    width: 15rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  table {
+    width: 100%;
+    padding: 10px;
+  }
+
+  td {
+    padding: 0px;
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3, h3 a{
+    font-size: 2rem;
+    padding: 0px;
+    margin: 20px;
+  }
 }
