@@ -168,7 +168,7 @@ a:hover {
   color: #d7889e;
 }
 
-.inventoryShow {
+.inventoryShow, .shop {
   background-color: #233132;
   padding: 20px;
 }
@@ -194,4 +194,10 @@ input {
   font-size: 1.2rem;
   color: #233132;
   padding: 10px;
+}
+
+.shopCards {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
 }
