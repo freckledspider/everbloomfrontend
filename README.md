@@ -51,6 +51,13 @@ Everbloom is an online florist shop that offers a variety of fresh flowers and a
 | Description | varchar(250) |
 | Card | varchar(100) |
 
+### Screenshots
+#### Browser
+<img src="https://i.imgur.com/DD1JFFu.png" width="500"/> <img src="https://i.imgur.com/fpVIiVi.png" width="500"/>
+
+#### Mobile
+<img src="https://i.imgur.com/BcDoTQO.png" height="400"/> <img src="https://i.imgur.com/dkFU4tx.png" height="400"/>
+
 ### Mockups
 #### Browser
 <img src="https://i.imgur.com/pYQIUog.png" width="500"/> <img src="https://i.imgur.com/zwDCYIb.png" width="500"/>
